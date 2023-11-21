@@ -82,6 +82,7 @@
     font-size: $font-size-large;
     height: 30px;
     line-height: 30px;
+    font-weight: bold;
   }
 
   .toc-title {
@@ -113,19 +114,33 @@
     line-height: 1.25em;
 
     &-level {
+      &-1 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 12px 0;
+      }
+
       &-2 {
         font-size: 15px;
-        margin: 5px 0;
+        font-weight: bold;
+        margin: 8px 0;
+        padding-left: 15px;
       }
 
       &-3 {
         font-size: 14px;
-        padding-left: 20px;
+        font-weight: normal;
+        padding-left: 15px;
       }
 
       &-4 {
         font-size: 13px;
-        padding-left: 20px;
+        padding-left: 15px;
+      }
+
+      &-5 {
+        font-size: 12px;
+        padding-left: 8px;
       }
     }
   }
